@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do fafa</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="body_mensagem">
+        <section id="section_mensagem">
+            <h6>Deixe sua mensagem</h6>
+            <form>
+                <!-- As config do label não funcionarão corretamente por conta da adaptação feita para o "botão" enviar funcionar corretamente-->
+                <label>Nome</label>
+                    <input type="text" nome="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                    <input type="email" nome="email" placeholder="Digite seu email" autocomplete="off" required>
+                <label>Mensagem</label>
+                    <textarea nome="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <a id="enviar"class="a_mensagem" href="index.html"> Enviar</a> <!-- Para o botao ficar 100% clicavel não foi criado com a tag button
+                o que vai o required ficar invalido-->
+                <a href="index.html"> Voltar a página principal</a>
+            </form>
+        </section>
+    
+</body>
+</html>
